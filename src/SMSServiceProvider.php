@@ -1,0 +1,13 @@
+<?php
+
+namespace Alkaris\SMSService;
+use Illuminate\Support\ServiceProvider;
+
+class SMSServiceProvider extends ServiceProvider{
+    public function boot(){
+        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
+    }
+    public function register(){
+
+    }
+}
