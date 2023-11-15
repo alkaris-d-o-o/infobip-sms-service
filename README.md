@@ -1,5 +1,9 @@
 # SMS Service
 
+## Composer
+
+    composer require alkaris/sms-service
+
 ## SMS Service using InfoBip API
 
 Usage: 
